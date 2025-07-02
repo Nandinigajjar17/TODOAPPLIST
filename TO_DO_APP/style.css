@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    overflow-x: hidden
+}
+
+.task-lists li:hover {
+    background-color: #e9ecef
+}
+
+body {
+    background-color: #f8f9fa
+}
+
+.task-lists li:hover {
+    background-color: #e9ecef
+}
+
+ul {
+    list-style-type: none
+}
+
+.task-lists li {
+    align-items: center;
+    display: flex;
+    text-align: justify;
+    justify-content: space-between
+}
+
+.delete-image,
+.edit-image {
+    width: 20px;
+    padding-bottom: 8px
+}
+
+li span {
+    display: flex;
+    gap: 3px
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.task-lists {
+    height: 350px;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    overflow: auto
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 6px;
+    width: 100%;
+    background-color: #80808030;
+    border: 1px solid #e5c1c17a
+}
+
+li button {
+    height: 35px;
+    border: 0;
+    border-radius: 0 10px 0 10px
+}
